@@ -201,7 +201,7 @@ value1Ref.on('value', function(snapshot) {
     document.getElementById('warning_co2_1').style.backgroundColor = "red";
                     }
     else{
-    document.getElementById('warning_co2_1').style.backgroundColor = "blue";
+    document.getElementById('warning_co2_1').style.backgroundColor = "green";
                     }
 });
 
@@ -216,7 +216,7 @@ value2Ref.on('value', function(snapshot) {
     document.getElementById('warning_no_1').style.backgroundColor = "red";
                     }
     else{
-    document.getElementById('warning_no_1').style.backgroundColor = "blue";
+    document.getElementById('warning_no_1').style.backgroundColor = "green";
                     }
 });
 // data3 = giá trị của value của CO2 trạm 2
@@ -230,7 +230,7 @@ value3Ref.on('value', function(snapshot) {
     document.getElementById('warning_co2_2').style.backgroundColor = "red";
                     }
     else{
-    document.getElementById('warning_co2_2').style.backgroundColor = "blue";
+    document.getElementById('warning_co2_2').style.backgroundColor = "green";
                     }
 });
 // data4 = giá trị của value của NO trạm 2
@@ -245,7 +245,7 @@ value4Ref.on('value', function(snapshot) {
     document.getElementById('warning_no_2').style.backgroundColor = "red";
                     }
     else{
-    document.getElementById('warning_no_2').style.backgroundColor = "blue";
+    document.getElementById('warning_no_2').style.backgroundColor = "green";
                     }
 });
 
