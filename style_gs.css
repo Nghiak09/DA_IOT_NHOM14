@@ -206,9 +206,23 @@ main .date input[type="date"]{
 }
 main .insights{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 245px 1fr;
     gap: 1.6rem;
 }
+
+main .insights1{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.graphBox1{
+    position: relative;
+    width: 900px;
+    height: 180px;
+    padding-right: 0px;
+}
+
 main .insights >div{
     background-color: var(--color-white);
     padding: var(--card-padding);
@@ -237,6 +251,7 @@ main .insights >div.gas span{
     background: rgb(255, 124, 235);
 }
 main .insights >div .middle{
+    padding-left: 20xp;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -250,10 +265,6 @@ main .insights .progress{
     width: 10px;
     height: 190px;
 }
-/*.gause{
-    width: 180px;
-    height: 180px;
-}*/
 
 main .insights .progress .number{
     position: absolute;
@@ -274,6 +285,7 @@ main .insights small {
     position: relative;
     width: 900px;
     height: 250px;
+    padding-right: 20px;
 }
 main .alldata {
     margin-top: 2rem;
@@ -329,9 +341,5 @@ main table tbody tr:last-child td{
     main .insights{
         grid-template-columns: 1fr;
         gap: 0;
-    }
-    .graphBox{
-        position: relative;
-        padding-right: 20px;
     }
 }

@@ -858,5 +858,12 @@ nav .fa{
     border-radius: 5px;
 }
 
-
+.vertical-center 
+{
+    max-width: 200px;
+    background: red;
+    color: white;
+    padding: 10px;
+}
+   
 
